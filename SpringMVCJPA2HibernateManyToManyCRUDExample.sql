@@ -16,7 +16,7 @@ create table USER_PROFILE(
    PRIMARY KEY (id),
    UNIQUE (type)
 );
-  
+   
   
 CREATE TABLE APP_USER_USER_PROFILE (
     user_id BIGINT NOT NULL,
